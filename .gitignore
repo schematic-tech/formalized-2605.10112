@@ -1,0 +1,10 @@
+.lake/
+.worktrees/
+/mathlib/
+/2605.10112_src.tar.gz
+/2605.10112_tex/
+/papers/
+*.olean
+*.ilean
+*.c
+*.o

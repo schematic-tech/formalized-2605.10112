@@ -1,0 +1,1 @@
+import DominatingFourColour.Consequences.NearHajos.Basic.Conclusion

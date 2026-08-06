@@ -1,0 +1,3 @@
+import DominatingFourColour.Consequences.NearHajos
+import DominatingFourColour.Consequences.Examples
+import DominatingFourColour.Consequences.DominatingHadwiger
