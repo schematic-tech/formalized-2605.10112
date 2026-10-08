@@ -1,6 +1,6 @@
 # The Dominating 4-Colour Theorem
 
-A complete Lean 4 formalization of the paper *The Dominating 4-Colour Theorem* by António Girão, Freddie Illingworth, Bojan Mohar, Sergey Norin, Raphael Steiner, Youri Tamitegama, Jane Tan, David R. Wood, and Jung Hon Yip ([arXiv:2605.10112](https://arxiv.org/abs/2605.10112)). The formalization was generated autonomously by [Schematic](https://github.com/schematic-rs)'s Lean proof engine Hydra.
+A complete Lean 4 formalization of the paper *The Dominating 4-Colour Theorem* by António Girão, Freddie Illingworth, Bojan Mohar, Sergey Norin, Raphael Steiner, Youri Tamitegama, Jane Tan, David R. Wood, and Jung Hon Yip ([arXiv:2605.10112](https://arxiv.org/abs/2605.10112)). The formalization was generated autonomously by [Schematic](https://github.com/schematic-tech)'s Lean proof engine Hydra.
 
 The results from the article are formalized in `DominatingFourColour/`, including the theorems:
 ```lean
@@ -21,8 +21,8 @@ theorem five_chromatic_has_dominating_K5_model
 
 ## Dependencies
 
-- [`FourColorTheorem`](https://github.com/schematic-rs/formalized-fct): the Four Color Theorem---also formalized by Schematic Hydra.
-- [`Schematic.Math`](https://github.com/schematic-rs/math): reusable graph theory, including planar embeddings and graph minors---from Schematic's formal math library.
+- [`FourColorTheorem`](https://github.com/schematic-tech/formalized-fct): the Four Color Theorem---also formalized by Schematic Hydra.
+- [`Schematic.Math`](https://github.com/schematic-tech/math): reusable graph theory, including planar embeddings and graph minors---from Schematic's formal math library.
 
 ## Build
 
